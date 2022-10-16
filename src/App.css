@@ -1,8 +1,13 @@
 .App .container {
   border: 1px solid #F6B900;
+  display: block;
+  margin: 50px auto;
+  padding: 20px 30px;
 }
 .App footer {
+  color: #473902;
   line-height: 1;
+  margin-top: -30px;
   text-align: center;
 }
 .App .links {
