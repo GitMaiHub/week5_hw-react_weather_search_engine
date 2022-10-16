@@ -1,0 +1,9 @@
+.SearchEngine .form-control {
+     border: 2px solid #B8952F;
+    font-weight: 600;
+}
+.SearchEngine .btn-success {
+    border: 2px solid #B8952F;
+    background: #B8952F;
+    font-weight: 600;
+}
