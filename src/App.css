@@ -1,0 +1,11 @@
+.App .container {
+  border: 1px solid #F6B900;
+}
+.App footer {
+  line-height: 1;
+  text-align: center;
+}
+.App .links {
+  color: #A17802;
+  text-decoration: none;
+}
