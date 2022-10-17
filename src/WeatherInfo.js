@@ -14,12 +14,12 @@ export default function WeatherInfo(props) {
 <FormatDate date={props.data.date} />
 </h3>
 
-<div className="row mt-4">
-    <div className="col-md-6">
+<div className="row weather-box">
+    <div className="col-md-8">
         <WeatherIcon code={props.data.icon} />
 <TemperatureConversion fahrenheit={props.data.temperature} />
     </div>
-    <div className="col-md-6">
+    <div className="col-md-4">
 <ul>
     <li className="text-capitalize">
         {props.data.description}

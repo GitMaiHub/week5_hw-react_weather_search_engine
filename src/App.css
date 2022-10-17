@@ -2,7 +2,8 @@
   border: 1px solid #F6B900;
   display: block;
   margin: 50px auto;
-  padding: 20px 30px;
+  max-width: 600px;
+  padding: 20px 30px 10px 50px;
 }
 .App footer {
   color: #473902;
