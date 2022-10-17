@@ -1,5 +1,7 @@
 import React from "react";
-import FormatDate from "./FormatDate"
+import FormatDate from "./FormatDate";
+import WeatherIcon from "./WeatherIcon";
+import TemperatureConversion from "./TemperatureConversion";
 import "./WeatherInfo.css"
 
 export default function WeatherInfo(props) {
@@ -13,11 +15,11 @@ export default function WeatherInfo(props) {
 </h3>
 
 <div className="row mt-4">
-    <div className="col-md-5">
-<img src="http://openweathermap.org/img/wn/${props.data.icon}@2x.png" alt={props.data.description} />
-<span>{props.data.temperature}<a href="/" className="unit">°C</a> | <a href="/" className="unit">°F</a></span>
+    <div className="col-md-6">
+        <WeatherIcon code={props.data.icon} />
+<TemperatureConversion fahrenheit={props.data.temperature} />
     </div>
-    <div className="col-md-7">
+    <div className="col-md-6">
 <ul>
     <li className="text-capitalize">
         {props.data.description}
